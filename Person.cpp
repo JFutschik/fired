@@ -17,6 +17,7 @@ public:
 	void setAge(int);
 	void savePerson();
 	void loadPerson();
+	void createCustomPerson();
 	string reportData() {
 		if (persongender == Female) {
 			outGender = "Weiblich";

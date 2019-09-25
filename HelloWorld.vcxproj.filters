@@ -30,6 +30,9 @@
     <ClCompile Include="setPerson.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="customPerson.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

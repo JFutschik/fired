@@ -31,11 +31,18 @@ int main()
 		}
 	}
 	else if (response == "No") {
-		cout << "What do you want to do?" << endl << "Load Person / Save Person";
+		cout << "What do you want to do?" << endl << "Load Person / Save Person / Create Person";
 		cin >> response;
 		if (response == "Load"){
 			Person testPerson;
 			testPerson.loadPerson();
+			string output = testPerson.reportData();
+			cout << output << endl;
+			goto MAINLOOP;
+		}
+		else {
+			Person testPerson;
+			testPerson.createCustomPerson();
 			string output = testPerson.reportData();
 			cout << output << endl;
 			goto MAINLOOP;

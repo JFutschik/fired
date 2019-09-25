@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="customPerson.cpp" />
     <ClCompile Include="loadSave.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="personConstructor.cpp" />
